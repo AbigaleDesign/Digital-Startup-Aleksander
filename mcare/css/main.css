@@ -1,0 +1,140 @@
+* {
+    margin: 0;
+}
+
+body,
+html {
+    height: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.topbar ul {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+}
+
+.topbar ul li {
+    display: inline-block;
+    list-style-type: none;
+}
+
+.topbar > ul > li > a {
+    color: black;
+    font-weight: 600;
+    display: block;
+    line-height: 2em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.logo {
+    float: left;
+    position: absolute;
+    margin: 10px 15px 15px 10px;
+    width: 25%;
+    height: auto;
+
+}
+
+.fullscreen-bg {
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+
+}
+
+.fullscreen-bg__video {
+    width: 100%;
+    height: 100%;
+}
+
+.fordel {
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 40px;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+
+}
+
+.image-grid {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-grid img {
+    padding: 10px;
+    transition: transform .2s;
+}
+
+.image-grid img:hover {
+    transform: scale(1.1);
+}
+
+.row1 div h2 {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.row2 div h2 {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.row3 div h2 {
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+}
+
+.tizer {
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.reference h1 {
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 80px;
+}
+
+.reference img {
+    text-align: center;
+    float: left;
+    width: 19%;
+    align-items: center;
+    padding-left: 30px;
+    padding-bottom: 50px;
+
+}
+
+footer {
+    background-color: rgb(58, 102, 200);
+    padding-left: 100px;
+    color: white;
+    float: left;
+    width: 100%;
+}
+
+footer p {
+    padding-top: 9px;
+    padding-bottom: 9px;
+    float: left;
+    width: 40%;
+}
+
+   
